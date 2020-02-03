@@ -26,6 +26,7 @@ set(PKG_DEPS
     tf2_msgs
     tf2_sensor_msgs
     trajectory_msgs
+    intera_core_msgs
     visualization_msgs)
 
 find_package(catkin REQUIRED COMPONENTS ${PKG_DEPS})
