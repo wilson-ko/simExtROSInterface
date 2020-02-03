@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.0.0)
 project(sim_ros_interface)
 
+set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} /opt/CoppeliaSim_Edu_V4_0_0_Ubuntu16_04/programming/libPlugin/cmake/)
+
 set(CMAKE_CXX_STANDARD 11)
 
 set(PKG_DEPS
